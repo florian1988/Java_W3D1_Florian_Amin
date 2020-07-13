@@ -23,7 +23,8 @@ public class A5_Warehouse {
         System.out.println("Article: " + article + " Amount: " + amount );
 
         }
-        private ArrayList<A5_Warehouse> inventory = new ArrayList<A5_Warehouse>();
+
+        private final ArrayList<A5_Warehouse> inventory = new ArrayList<A5_Warehouse>();
 
 
         private void fillIt(){
